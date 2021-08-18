@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import com.example.demo.entity.Hello;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,11 +25,11 @@ public class HelloRestController {
         return m;
     }
 
- /*   @GetMapping("hello-object")
+    @GetMapping("hello-object")
 
     public Hello helloObject(String name){
         Hello h = new Hello(name);
         return h;
-    }*/
+    }
 
 }
